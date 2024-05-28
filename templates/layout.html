@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="keywords" content="HTML5, CSS3">
+<title>Ejemplo de estructura HTML5</title>
+<link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+<header>
+   <img src="/static/imagenes/portada1.jpg" width="200px">
+</header>
+<nav>
+    <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/perro">PERROS</a></li>
+        <li><a href="/serpiente">SERPIENTES</a></li>
+        <li><a href="/pez">PECES</a></li>
+        <li><a href="/contacto">CONTACTO</a></li>
+        <li><a href="/crud">tabla</a></li>
+    </ul>
+</nav>
+ <br>
+ <br>
+ {% block content %}
+ {% endblock %}
+ <footer>
+  <p>Para mas informacion visita nuestra tienda precencial en el centro comercial vida nueva local 13 a lado de walmart</p>
+</footer>
+
+</body>
+</html>
